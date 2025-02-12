@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
  
 module.exports = {
     SESSION_ID: "Xnodes~rjREQb5L#lqK2WJV93vybNsOYNDH2BInQXLQPoBzP-2nBjKFDtfw" // add your Session Id  Ex : Xnodes~e2R2VQgS#KFvTRMN77ZGFOYSKbA4mpNjwt7KBwiRFwRoG1-vi4"
-    AUTO_STATUS_SEEN: true,  // set to true or false for auto-seeing status
+    AUTO_STATUS_SEEN: false,  // set to true or false for auto-seeing status
     AUTO_STATUS_REPLY: true,  // set to true if you want auto-reply on status
     AUTO_STATUS_REACT: true,  // set to true if you want auto-react on status
     AUTO_STATUS_MSG: "GARFIELD-WHATSAPP-BOT-v10",  // set the auto-reply message for status replies
@@ -16,7 +16,7 @@ module.exports = {
     CUSTOM_REACT: false,  // set to true for custom emoji reactions
     CUSTOM_REACT_EMOJIS: "⭐",  // choose custom react emojis
     DELETE_LINKS: false,  // set to true for automatic deletion of links without removing member
-    OWNER_NUMBER: "94711502119",  // add your bot owner number
+    OWNER_NUMBER: "8210268264",  // add your bot owner number
     OWNER_NAME: "@Sanku",  // add bot owner name
     DESCRIPTION: "©Ｐｏｗｅｒｅｄ ｂｙ Ｘｎｏｄｅｓ",  // add bot description
     ALIVE_IMG: "https://i.ibb.co/5g7VGhC9/Picsart-25-01-30-13-20-52-736.png",  // add image URL for alive message
@@ -33,7 +33,7 @@ module.exports = {
     PUBLIC_MODE: true,  // set to false for private mode
     AUTO_TYPING: false,  // set to true for automatic show typing
     READ_CMD: false,  // set to true to mark commands as read
-    DEV: "94711502119",  // replace with your WhatsApp number
+    DEV: "8210268264",  // replace with your WhatsApp number
     ANTI_VV: true,  // set to true for anti-once view
     ANTI_DEL_PATH: "log",  // change to 'same' if you want to resend deleted message in the same chat
     AUTO_RECORDING: false  // set to true for auto-recording
